@@ -1,6 +1,6 @@
 # Fedora28InstallationTestingUsingOpenQA
 		
-		openQA is an automated test system designed around operating system-level testing. Its key feature is that it interacts with the system under test much like a human would, by sending input using a virtual keyboard and mouse (or serial console input), and monitoring the screen, serial console and audio outputs for output. This makes it ideally suited to running operating system-level tests without making any modifications to the software being tested.
+openQA is an automated test system designed around operating system-level testing. Its key feature is that it interacts with the system under test much like a human would, by sending input using a virtual keyboard and mouse (or serial console input), and monitoring the screen, serial console and audio outputs for output. This makes it ideally suited to running operating system-level tests without making any modifications to the software being tested.
 
 # How Fedora uses openQA
 
@@ -8,8 +8,8 @@ There are currently two official Fedora openQA deployments: production and stagi
 
 At present, Fedora uses openQA for release validation type testing. We have developed a set of tests oriented around testing a complete Fedora distribution compose. These tests are run:
 
-    On every nightly compose of Rawhide or Branched
-    On every 'candidate' compose (including release candidates)
+     On every nightly compose of Rawhide or Branched
+     On every 'candidate' compose (including release candidates)
 
 A subset of tests is run on every nightly two-week Atomic compose, and on each refresh of the semi-official post-release live respins.
 
@@ -31,6 +31,5 @@ The official Fedora openQA deployments are managed via Ansible playbooks in the 
 	
 
 
-#This project deals with the testing of whole installation process of the Fedora 28 using the tool OpenQA, all the test scripts written for the testing are with respect to keyboard key's & without any interaction of mouse.
-The chained process here include the testing of the on screen keyboard of fedora.
+#This project deals with the testing of whole installation process of the Fedora 28 using the tool OpenQA, all the test scripts written for the testing are with respect to keyboard key's & without any interaction of mouse.The chained process here include the testing of the on screen keyboard of fedora.
 
